@@ -22,7 +22,7 @@ all other scripts expect that token in `TT_AUTH_TOKEN` to be filled and valid.
 
 ## Download a confirmation pdf
 `echo NAME |./tt-tc-fetch`
-you can pipe a list of names into it
+can also pipe a list of names into it
 
 ## Download all confirmations at once
 `./tt-tc-list.sh ACCOUNT | ./tt-tc-fetch`
